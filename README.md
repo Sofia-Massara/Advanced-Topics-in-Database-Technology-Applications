@@ -1,14 +1,17 @@
-# Data-Bases-2
-Project για Προχωρημένα Θέματα Βάσεων Δεδομένων
+TEAM :
+ΚΩΝΣΤΑΝΤΙΝΟΣ ΚΑΡΓΑΣ, 4381
+ΣΟΦΙΑ ΜΑΣΣΑΡΑ, 4729
+ΟΚΤΑΙ ΜΠΟΖ, 4437
 
-Ομάδα:
-Κωσταντίνος Κάργας 4381,
-Οκται Βοζ 4437,
-Σοφία Μασσαρά 4729,
+Design Tools: Java 17, Maven Spring boot 2.6.4, Thymeleaf 3.1.0, eclipse, mySQLWorkbench 8.0CE
+Installation: File->Import->Existing Maven Projects
+Usage: In cs.uoi.gr.mye030.project.etl -> Run TableInitializationExecutor.java (username password database name and file path may differ) -> And then Run CsvToDBImporter.java
 
 
-
-
+Starting by creating a Maven Spring boot project, the application runs from ProjectApplication.java class and homepage gets loaden from WebMvcConfig.java. 
+Data transforming is handled by the classes in the package cs.uoi.gr.mye030.project.etl  and data manipulation by the classes in the packages 
+cs.uoi.gr.mye030.project.model , cs.uoi.gr.mye030.project.dao , cs.uoi.gr.mye030.project.service and cs.uoi.gr.mye030.project.serviceImpl .
+User Interface is created and handled in src/main/resources/templates , src/main/resources/static and in the package cs.uoi.gr.mye030.project.controller
 
 
 
